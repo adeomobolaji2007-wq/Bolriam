@@ -1,12 +1,79 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My First Website</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bolriam | Beginner Web Developer</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <h1>Welcome!</h1>
-    <p>My name is Adesioye.</p>
-    <p>I am learning web development.</p>
+  <header class="hero">
+    <nav class="navbar">
+      <h1 class="logo">Bolriam</h1>
+      <a class="nav-link" href="#contact">Contact</a>
+    </nav>
+
+    <section class="hero-content">
+      <p class="tag">Beginner Web Developer</p>
+      <h2>Building simple, clean websites that work on every screen.</h2>
+      <p>
+        I create responsive websites using HTML, CSS, and JavaScript.
+        I’m focused on learning, improving, and shipping real projects.
+      </p>
+      <a class="button" href="#projects">View Projects</a>
+    </section>
+  </header>
+
+  <main>
+    <section class="section" id="about">
+      <h3>About Me</h3>
+      <p>
+        I’m a beginner web developer based in Lagos. I’m learning how to build
+        modern websites and turning practice into real work.
+      </p>
+    </section>
+
+    <section class="section" id="skills">
+      <h3>Skills</h3>
+      <div class="cards">
+        <div class="card">HTML</div>
+        <div class="card">CSS</div>
+        <div class="card">JavaScript</div>
+        <div class="card">GitHub Pages</div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <h3>Projects</h3>
+      <div class="project-list">
+        <article class="project-card">
+          <h4>Project One</h4>
+          <p>A simple website layout built with HTML and CSS.</p>
+        </article>
+        <article class="project-card">
+          <h4>Project Two</h4>
+          <p>A responsive landing page with a clean mobile-first design.</p>
+        </article>
+        <article class="project-card">
+          <h4>Project Three</h4>
+          <p>A small JavaScript project to practice interactivity.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <h3>Contact</h3>
+      <p>Email: bolriamweb@gmail.com</p>
+      <p>
+        <a href="https://github.com/yourusername" target="_blank">GitHub</a>
+        ·
+        <a href="https://linkedin.com/in/yourusername" target="_blank">LinkedIn</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Bolriam. All rights reserved.</p>
+  </footer>
 </body>
 </html>
